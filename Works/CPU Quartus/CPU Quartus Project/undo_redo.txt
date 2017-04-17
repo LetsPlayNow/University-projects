@@ -1,0 +1,12 @@
+MED
+d:\CPU\MemoryInitializationFiles\RAM.mif
+
+	Undo Commands
+	     1.	Cells
+	     2.	Cells
+	     3.	Cells
+	     4.	Cells
+	     5.	Paste from Clipboard
+	     6.	Paste from Clipboard
+
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Study\MobileOS\HandDetection\app\build\intermediates\exploded-aar\HandDetection\opencv\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7555b40eba1cee5367e97bb272c102257496bb9b">
+        <dex dex="D:\Study\MobileOS\HandDetection\app\build\intermediates\pre-dexed\debug\classes-0c68b98dfd13899ca5cb1eff879a8aeadb04dc5b.jar" />
+    </item>
+
+</items>

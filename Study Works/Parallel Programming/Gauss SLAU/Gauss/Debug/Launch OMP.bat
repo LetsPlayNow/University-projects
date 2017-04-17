@@ -1,0 +1,2 @@
+Gauss.exe omp
+pause

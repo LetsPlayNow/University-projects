@@ -1,0 +1,10 @@
+enum requests
+{
+	EXIT,
+	COUNT,
+	APPEND,
+	REMOVE,
+	UPDATE,
+	RECORD,
+	RECORDS,
+};

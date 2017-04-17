@@ -1,0 +1,142 @@
+
+                                      ARENA Simulation Results
+                                       Alex - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :12/12/2015
+Analyst: Alex                                                        Model revision date:12/12/2015
+
+Replication ended at time      : 6.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+ProcessTask.TotalCostPerEntity              .00000     (Insuf)    .00000     .00000        270    
+AnalysisOfAnswer.TotalTimePerEntity         .00833     (Insuf)    .00833     .00833        270    
+AnalysisOfAnswer.VATimePerEntity            .00833     (Insuf)    .00833     .00833        270    
+TerminalShowAnswer.VACostPerEntity          .00000     .00000     .00000     .00000       2720    
+TypeString.VATimePerEntity                  .00275     5.2896E-05 .00000     .00695       2720    
+TerminalGettingAnswer.VACostPerEntity       .00000     (Insuf)    .00000     .00000        270    
+ProcessTask.VATimePerEntity                 .00279     (Insuf)    6.7116E-04 .00503        270    
+TerminalGettingAnswer.TotalTimePerEntity    .00222     (Insuf)    .00222     .00222        270    
+TypeString.TotalTimePerEntity               .00275     5.2896E-05 .00000     .00695       2720    
+ProcessString.WaitTimePerEntity             2.9541E-04 1.5895E-05 .00000     .00528       2720    
+ProcessString.TotalTimePerEntity            .00113     1.5895E-05 8.3333E-04 .00611       2720    
+TerminalShowAnswer.TotalCostPerEntity       .00000     .00000     .00000     .00000       2720    
+ProcessTask.WaitTimePerEntity               2.4088E-04 (Insuf)    .00000     .00339        270    
+ProcessString.VATimePerEntity               8.3333E-04 (Corr)     8.3333E-04 8.3333E-04   2720    
+ProcessTask.TotalTimePerEntity              .00303     (Insuf)    6.7116E-04 .00669        270    
+TerminalShowAnswer.VATimePerEntity          .00139     (Corr)     .00139     .00139       2720    
+AnalysisOfAnswer.TotalCostPerEntity         .00000     (Insuf)    .00000     .00000        270    
+AnalysisOfAnswer.VACostPerEntity            .00000     (Insuf)    .00000     .00000        270    
+TerminalGettingAnswer.VATimePerEntity       .00222     (Insuf)    .00222     .00222        270    
+TypeString.VACostPerEntity                  .00000     .00000     .00000     .00000       2720    
+ProcessTask.VACostPerEntity                 .00000     (Insuf)    .00000     .00000        270    
+TerminalGettingAnswer.TotalCostPerEntity    .00000     (Insuf)    .00000     .00000        270    
+TypeString.TotalCostPerEntity               .00000     .00000     .00000     .00000       2720    
+ProcessString.WaitCostPerEntity             .00000     .00000     .00000     .00000       2720    
+ProcessString.TotalCostPerEntity            .00000     .00000     .00000     .00000       2720    
+TerminalShowAnswer.TotalTimePerEntity       .00139     (Corr)     .00139     .00139       2720    
+ProcessTask.WaitCostPerEntity               .00000     (Insuf)    .00000     .00000        270    
+ProcessString.VACostPerEntity               .00000     .00000     .00000     .00000       2720    
+TerminalWork.VATime                             --         --         --         --          0
+TerminalWork.NVATime                            --         --         --         --          0
+TerminalWork.WaitTime                           --         --         --         --          0
+TerminalWork.TranTime                           --         --         --         --          0
+TerminalWork.OtherTime                          --         --         --         --          0
+TerminalWork.TotalTime                          --         --         --         --          0
+TerminalWork.VACost                             --         --         --         --          0
+TerminalWork.NVACost                            --         --         --         --          0
+TerminalWork.WaitCost                           --         --         --         --          0
+TerminalWork.TranCost                           --         --         --         --          0
+TerminalWork.OtherCost                          --         --         --         --          0
+TerminalWork.TotalCost                          --         --         --         --          0
+ProcessString.Queue.WaitingTime             2.9541E-04 1.5895E-05 .00000     .00528       2720    
+ProcessString.Queue.WaitingCost             .00000     .00000     .00000     .00000       2720    
+ProcessTask.Queue.WaitingTime               2.3999E-04 (Insuf)    .00000     .00339        271    
+ProcessTask.Queue.WaitingCost               .00000     (Insuf)    .00000     .00000        271    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+TerminalWork.WIP                            3.0000     (Insuf)    .00000     3.0000     3.0000    
+EVM.NumberBusy                              .50347     .00497     .00000     1.0000     1.0000    
+EVM.NumberScheduled                         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+EVM.Utilization                             .50347     .00497     .00000     1.0000     1.0000    
+ProcessString.Queue.NumberInQueue           .13392     (Corr)     .00000     2.0000     .00000    
+ProcessTask.Queue.NumberInQueue             .01084     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+ProcessString Total Accum Cost              .00000    
+TypeString Total Accum Cost                 .00000    
+ProcessString Number In                     2720.0    
+TerminalShowAnswer Total Accum Time         3.7777    
+ProcessTask Accum VA Time                   .75312    
+TypeString Accum VA Cost                    .00000    
+TerminalGettingAnswer Number Out            270.00    
+ProcessString Accum Wait Time               .80351    
+AnalysisOfAnswer Accum VA Cost              .00000    
+TypeString Number Out                       2720.0    
+AnalysisOfAnswer Total Accum Cost           .00000    
+TerminalShowAnswer Number Out               2720.0    
+TerminalGettingAnswer Total Accum Time      .60000    
+ProcessString Total Accum Time              3.0701    
+TerminalShowAnswer Accum VA Time            3.7777    
+ProcessTask Accum VA Cost                   .00000    
+TerminalGettingAnswer Accum VA Time         .60000    
+TerminalShowAnswer Total Accum Cost         .00000    
+ProcessString Accum Wait Cost               .00000    
+TerminalShowAnswer Number In                2720.0    
+ProcessTask Total Accum Time                .81816    
+ProcessString Accum VA Time                 2.2666    
+ProcessTask Number In                       271.00    
+TerminalGettingAnswer Total Accum Cost      .00000    
+TerminalShowAnswer Accum VA Cost            .00000    
+TerminalGettingAnswer Number In             270.00    
+TerminalGettingAnswer Accum VA Cost         .00000    
+ProcessString Accum VA Cost                 .00000    
+ProcessTask Total Accum Cost                .00000    
+TypeString Number In                        2722.0    
+AnalysisOfAnswer Number In                  270.00    
+ProcessTask Accum Wait Time                 .06504    
+ProcessTask Number Out                      270.00    
+TypeString Total Accum Time                 7.4782    
+ProcessString Number Out                    2720.0    
+TypeString Accum VA Time                    7.4782    
+ProcessTask Accum Wait Cost                 .00000    
+AnalysisOfAnswer Number Out                 270.00    
+AnalysisOfAnswer Total Accum Time           2.2500    
+AnalysisOfAnswer Accum VA Time              2.2500    
+TerminalWork.NumberIn                       3.0000    
+TerminalWork.NumberOut                      .00000    
+EVM.NumberSeized                            2991.0    
+EVM.ScheduledUtilization                    .50347    
+EVM.BusyCost                                .00000    
+EVM.IdleCost                                .00000    
+EVM.UsageCost                               .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            .00000    
+
+
+Simulation run time: 0.08 minutes.
+Simulation run complete.

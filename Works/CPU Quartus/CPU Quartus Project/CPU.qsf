@@ -1,0 +1,112 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.1 Build 222 10/21/2009 SJ Web Edition
+# Date created = 14:29:46  May 31, 2015
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		CPU_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY Cyclone
+set_global_assignment -name DEVICE AUTO
+set_global_assignment -name TOP_LEVEL_ENTITY CPU
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:29:46  MAY 31, 2015"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.1
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name MIF_FILE MemoryInitializationFiles/DECODE.mif
+set_global_assignment -name MIF_FILE MemoryInitializationFiles/MCCODE.mif
+set_global_assignment -name MIF_FILE MemoryInitializationFiles/RAM.mif
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveforms/CPU.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveforms/CPU_VER2.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveforms/MICR_ADDR.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveforms/MICR_ADDR_CHOOSeR.vwf
+set_global_assignment -name BDF_FILE Schemes/CPU.bdf
+set_global_assignment -name BDF_FILE Schemes/CU.bdf
+set_global_assignment -name BDF_FILE Schemes/ADDR_TYPE_SW.bdf
+set_global_assignment -name BDF_FILE Schemes/SHR_MONTAGE.bdf
+set_global_assignment -name BDF_FILE Schemes/ALU.bdf
+set_global_assignment -name BDF_FILE Schemes/REG.bdf
+set_global_assignment -name BDF_FILE Schemes/ADD.bdf
+set_global_assignment -name BDF_FILE Schemes/EQU_.bdf
+set_global_assignment -name BDF_FILE Schemes/NOR_.bdf
+set_global_assignment -name BDF_FILE Schemes/MICR_ADDR.bdf
+set_global_assignment -name BDF_FILE Schemes/REG_SRC_SWITCHER.bdf
+set_global_assignment -name BDF_FILE Schemes/MICR_ADR_CHOOSER.bdf
+set_global_assignment -name BDF_FILE Schemes/ADRESATION.bdf
+set_global_assignment -name BDF_FILE Schemes/INC.bdf
+set_global_assignment -name BDF_FILE Schemes/INC_2.bdf
+set_global_assignment -name BDF_FILE Schemes/RW_REG.bdf
+set_global_assignment -name QIP_FILE MCDECODE.qip
+set_global_assignment -name QIP_FILE MCCNTER.qip
+set_global_assignment -name VHDL_FILE Megafunctions/lpm_compare0.vhd
+set_global_assignment -name SOURCE_FILE Megafunctions/lpm_compare1.cmp
+set_global_assignment -name VHDL_FILE Megafunctions/lpm_compare1.vhd
+set_global_assignment -name SOURCE_FILE Megafunctions/lpm_add_sub0.cmp
+set_global_assignment -name VHDL_FILE Megafunctions/lpm_add_sub0.vhd
+set_global_assignment -name SOURCE_FILE Megafunctions/lpm_compare0.cmp
+set_global_assignment -name QIP_FILE Schemes/MEM_OR_REG.qip
+set_global_assignment -name QIP_FILE Megafunctions/lpm_rom0.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveforms/EQU.vwf
+set_global_assignment -name QIP_FILE Megafunctions/lpm_mux0.qip
+set_global_assignment -name QIP_FILE Megafunctions/lpm_ff0.qip
+set_global_assignment -name QIP_FILE Megafunctions/lpm_decode0.qip
+set_global_assignment -name QIP_FILE Megafunctions/lpm_constant0.qip
+set_global_assignment -name QIP_FILE Megafunctions/lpm_constant1.qip
+set_global_assignment -name QIP_FILE Megafunctions/ADDR_MUX.qip
+set_global_assignment -name QIP_FILE Megafunctions/DECODE_ADDR.qip
+set_global_assignment -name QIP_FILE ../Projects/Quartus/CPU/lpm_counter0.qip
+set_global_assignment -name QIP_FILE Megafunctions/MICRO_COUNTER.qip
+set_global_assignment -name QIP_FILE Symbols/MICROCODE.qip
+set_global_assignment -name QIP_FILE Megafunctions/REG_SWITCH_MUX.qip
+set_global_assignment -name QIP_FILE Megafunctions/REG_SW.qip
+set_global_assignment -name QIP_FILE Megafunctions/MICROCODE.qip
+set_global_assignment -name QIP_FILE Megafunctions/ADDRESS_SUMMATOR.qip
+set_global_assignment -name QIP_FILE Symbols/ADDRESATION_MUX.qip
+set_global_assignment -name QIP_FILE ../Projects/Quartus/CPU/RAM.qip
+set_global_assignment -name QIP_FILE Megafunctions/RAM.qip
+set_global_assignment -name QIP_FILE Megafunctions/RAM_256.qip
+set_global_assignment -name QIP_FILE Megafunctions/ADDRESATION_MUX.qip
+set_global_assignment -name QIP_FILE Megafunctions/ATS.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveforms/Test.vwf
+set_global_assignment -name QIP_FILE Megafunctions/MCPROG_COUNTER.qip
+set_global_assignment -name QIP_FILE Megafunctions/CNTERR.qip
+set_global_assignment -name QIP_FILE ADDR_GEN_MX.qip
+set_global_assignment -name BDF_FILE Schemes/reg_test.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveforms/reg_test.vwf
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Waveforms/CPU_VER2.vwf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,0 +1,153 @@
+Flow report for AUTOMATA
+Tue Dec 22 22:36:11 2015
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Flow Summary                                                            ;
++-------------------------------+-----------------------------------------+
+; Flow Status                   ; Successful - Tue Dec 22 22:36:11 2015   ;
+; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
+; Revision Name                 ; AUTOMATA                                ;
+; Top-level Entity Name         ; AUTOMATA                                ;
+; Family                        ; Stratix II                              ;
+; Met timing requirements       ; Yes                                     ;
+; Logic utilization             ; < 1 %                                   ;
+;     Combinational ALUTs       ; 80 / 12,480 ( < 1 % )                   ;
+;     Dedicated logic registers ; 67 / 12,480 ( < 1 % )                   ;
+; Total registers               ; 67                                      ;
+; Total pins                    ; 81 / 343 ( 24 % )                       ;
+; Total virtual pins            ; 0                                       ;
+; Total block memory bits       ; 0 / 419,328 ( 0 % )                     ;
+; DSP block 9-bit elements      ; 0 / 96 ( 0 % )                          ;
+; Total PLLs                    ; 0 / 6 ( 0 % )                           ;
+; Total DLLs                    ; 0 / 2 ( 0 % )                           ;
+; Device                        ; EP2S15F484C3                            ;
+; Timing Models                 ; Final                                   ;
++-------------------------------+-----------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 12/22/2015 22:35:54 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; AUTOMATA            ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                               ;
++------------------------------------+------------------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                                                      ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+------------------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 141110930166789.145081295402860                            ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                                                   ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                                     ; --            ; --          ; Top            ;
+; SEARCH_PATH                        ; d:\study\automatatheory\1\ou\blocks                        ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; d:\study\automatatheory\1\ou\megafunctions\signmux         ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; d:\study\automatatheory\1\ou\megafunctions\inc             ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; vaweforms                                                  ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; d:\study\automatatheory\1\ou\megafunctions\signedadd       ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; d:\study\automatatheory\1\ou\megafunctions\normalizerorder ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; d:\study\automatatheory\1\ou\megafunctions\normalizerc     ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; d:\study\automatatheory\1\ou\megafunctions\mux             ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; d:\study\automatatheory\1\ou\megafunctions\counter         ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; d:\study\automatatheory\1\ou\megafunctions\constant        ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; d:\study\automatatheory\1\ou\megafunctions\c               ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; d:\study\automatatheory\1\ou\megafunctions\b               ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; d:\study\automatatheory\1\ou\megafunctions\addone          ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; d:\study\automatatheory\1\ou\megafunctions\add             ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; d:\study\automatatheory\1\ou\megafunctions\a               ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; d:\study\automatatheory\1\ou\schemes                       ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; d:\study\automatatheory\2\cu\megafunctions\dec             ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; d:\study\automatatheory\2\cu\schemes                       ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; d:\study\automatatheory\2\cu\blocks                        ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; D:\Study\AutomataTheory\1\OU/                              ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; D:\Study\AutomataTheory\2\CU/                              ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; waveforms/                                                 ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; megafunctions/signedadd/                                   ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; megafunctions/normalizerc/                                 ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; megafunctions/normalizerorder/                             ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; blocks/                                                    ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; megafunctions/mux/                                         ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; megafunctions/counter/                                     ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; megafunctions/constant/                                    ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; megafunctions/c/                                           ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; megafunctions/addone/                                      ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; megafunctions/add/                                         ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; megafunctions/a/                                           ; --            ; --          ; --             ;
+; SEARCH_PATH                        ; megafunctions/b/                                           ; --            ; --          ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                                        ; --            ; --          ; eda_blast_fpga ;
++------------------------------------+------------------------------------------------------------+---------------+-------------+----------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis    ; 00:00:04     ; 1.0                     ; 246 MB              ; 00:00:05                           ;
+; Fitter                  ; 00:00:05     ; 1.0                     ; 245 MB              ; 00:00:06                           ;
+; Assembler               ; 00:00:02     ; 1.0                     ; 224 MB              ; 00:00:03                           ;
+; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 155 MB              ; 00:00:01                           ;
+; Total                   ; 00:00:11     ; --                      ; --                  ; 00:00:15                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                          ;
++-------------------------+------------------+---------------+------------+----------------+
+; Module Name             ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
++-------------------------+------------------+---------------+------------+----------------+
+; Analysis & Synthesis    ; Дом              ; Windows Vista ; 6.1        ; x86_64         ;
+; Fitter                  ; Дом              ; Windows Vista ; 6.1        ; x86_64         ;
+; Assembler               ; Дом              ; Windows Vista ; 6.1        ; x86_64         ;
+; Classic Timing Analyzer ; Дом              ; Windows Vista ; 6.1        ; x86_64         ;
++-------------------------+------------------+---------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off AUTOMATA -c AUTOMATA
+quartus_fit --read_settings_files=off --write_settings_files=off AUTOMATA -c AUTOMATA
+quartus_asm --read_settings_files=off --write_settings_files=off AUTOMATA -c AUTOMATA
+quartus_tan --read_settings_files=off --write_settings_files=off AUTOMATA -c AUTOMATA --timing_analysis_only
+
+
+

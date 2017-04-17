@@ -1,0 +1,6 @@
+D:\My\Study\Current\Построение СУБД\Labs\4\LinqToSql\bin\Debug\LinqToSql.exe.config
+D:\My\Study\Current\Построение СУБД\Labs\4\LinqToSql\bin\Debug\LinqToSql.exe
+D:\My\Study\Current\Построение СУБД\Labs\4\LinqToSql\bin\Debug\LinqToSql.pdb
+D:\My\Study\Current\Построение СУБД\Labs\4\LinqToSql\obj\Debug\LinqToSql.csprojResolveAssemblyReference.cache
+D:\My\Study\Current\Построение СУБД\Labs\4\LinqToSql\obj\Debug\LinqToSql.exe
+D:\My\Study\Current\Построение СУБД\Labs\4\LinqToSql\obj\Debug\LinqToSql.pdb

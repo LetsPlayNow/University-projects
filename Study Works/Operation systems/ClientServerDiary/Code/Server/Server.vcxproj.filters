@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="DataBase">
+      <UniqueIdentifier>{acf7c84f-e53e-4d1c-8b70-47585d67ca85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Note">
+      <UniqueIdentifier>{67216c7e-58ad-48dd-adca-ab4a8cbe82d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mediator">
+      <UniqueIdentifier>{fd4866bf-7dc0-44f6-8808-9c1034887e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mutex">
+      <UniqueIdentifier>{017134a7-dfb1-4c92-9d11-aaf4ab266842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Semaphore">
+      <UniqueIdentifier>{33272407-d476-4657-aeff-611ffbcbc3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{be63fd51-39a2-4ec7-9ea0-8a1056d63791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{efd8fa89-05fa-4f36-80b9-f9a9fb5a9fde}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{3789743f-2353-4b81-bdbc-45b0d9db7e8b}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase.cpp">
+      <Filter>DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Note.cpp">
+      <Filter>Note</Filter>
+    </ClCompile>
+    <ClCompile Include="mediator.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="index_id.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutex.cpp">
+      <Filter>Mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="Semaphore.cpp">
+      <Filter>Semaphore</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Server.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Server.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataBase.h">
+      <Filter>DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="QString_i_o.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Note.h">
+      <Filter>Note</Filter>
+    </ClInclude>
+    <ClInclude Include="request.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server_requests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mediator.h">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="Mutex.h">
+      <Filter>Mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="Semaphore.h">
+      <Filter>Semaphore</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.rb" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Server.h">
+      <Filter>Server</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="CPU">
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|ALU:inst|INC_2:inst5|TWO:inst|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_sf6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CU:inst1|ADDR_TYPE_SW:inst6|ATS:inst|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_frd.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CU:inst1|REG_SRC_SWITCHER:inst4|REG_SW:inst3|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_grd.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|ALU:inst|INC_2:inst5|lpm_add_sub0:inst1|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_n5h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|ADRESATION:inst9|ADDRESS_SUMMATOR:inst|parallel_add:parallel_add_component" CBX_FILE_NAME="par_add_dge.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|ALU:inst|ADD:inst|lpm_add_sub0:inst1|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_n5h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|ALU:inst|INC:inst4|ONE:inst|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_rf6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|ALU:inst|LPM_MUX:inst6" CBX_FILE_NAME="mux_ifc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CU:inst1|MICROCODE:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_as51.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CU:inst1|MICR_ADDR:inst1|DECODE_ADDR:inst1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_po51.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CU:inst1|MICR_ADDR:inst1|LPM_COUNTER:inst3" CBX_FILE_NAME="cntr_c1j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CU:inst1|REG_SRC_SWITCHER:inst2|REG_SW:inst3|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_grd.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|REG:inst4|LPM_MUX:inst6" CBX_FILE_NAME="mux_ifc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|ADRESATION:inst9|ADDRESATION_MUX:inst1|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_ord.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|ALU:inst|INC:inst4|lpm_add_sub0:inst1|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_n5h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CU:inst1|MICR_ADDR:inst1|LPM_MUX:inst2" CBX_FILE_NAME="mux_bfc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|CU:inst1|REG_SRC_SWITCHER:inst3|REG_SW:inst3|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_grd.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|MEM_OR_REG:inst3|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_lrd.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|RAM_256:inst7|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_s7f1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|ADRESATION:inst9|ADDRESS_SUMMATOR:inst|parallel_add:parallel_add_component|par_add_dge:auto_generated|lpm_add_sub:op_1" CBX_FILE_NAME="add_sub_rch.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|REG:inst4|LPM_MUX:inst4" CBX_FILE_NAME="mux_ifc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|REG:inst4|RW_REG:inst|lpm_decode0:inst|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ave.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|ALU:inst|EQU_:inst3|lpm_compare1:inst|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_o2g.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

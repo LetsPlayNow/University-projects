@@ -1,0 +1,89 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.1 Build 222 10/21/2009 SJ Web Edition
+# Date created = 07:25:09  December 22, 2015
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		AUTOMATA_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Stratix II"
+set_global_assignment -name DEVICE AUTO
+set_global_assignment -name TOP_LEVEL_ENTITY AUTOMATA
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "07:25:09  DECEMBER 22, 2015"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.1
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
+set_global_assignment -name BDF_FILE Schemes/AUTOMATA.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name VECTOR_WAVEFORM_FILE Vaweforms/AUTOMATA.vwf
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Vaweforms/AUTOMATA.vwf
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\1\\ou\\blocks"
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\1\\ou\\megafunctions\\signmux"
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\1\\ou\\megafunctions\\inc"
+set_global_assignment -name SEARCH_PATH vaweforms
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\1\\ou\\megafunctions\\signedadd"
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\1\\ou\\megafunctions\\normalizerorder"
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\1\\ou\\megafunctions\\normalizerc"
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\1\\ou\\megafunctions\\mux"
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\1\\ou\\megafunctions\\counter"
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\1\\ou\\megafunctions\\constant"
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\1\\ou\\megafunctions\\c"
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\1\\ou\\megafunctions\\b"
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\1\\ou\\megafunctions\\addone"
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\1\\ou\\megafunctions\\add"
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\1\\ou\\megafunctions\\a"
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\1\\ou\\schemes"
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\2\\cu\\megafunctions\\dec"
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\2\\cu\\schemes"
+set_global_assignment -name SEARCH_PATH "d:\\study\\automatatheory\\2\\cu\\blocks"
+set_global_assignment -name SEARCH_PATH "D:\\Study\\AutomataTheory\\1\\OU/"
+set_global_assignment -name SEARCH_PATH "D:\\Study\\AutomataTheory\\2\\CU/"
+set_global_assignment -name SEARCH_PATH waveforms/
+set_global_assignment -name SEARCH_PATH megafunctions/signedadd/
+set_global_assignment -name SEARCH_PATH megafunctions/normalizerc/
+set_global_assignment -name SEARCH_PATH megafunctions/normalizerorder/
+set_global_assignment -name SEARCH_PATH blocks/
+set_global_assignment -name SEARCH_PATH megafunctions/mux/
+set_global_assignment -name SEARCH_PATH megafunctions/counter/
+set_global_assignment -name SEARCH_PATH megafunctions/constant/
+set_global_assignment -name SEARCH_PATH megafunctions/c/
+set_global_assignment -name SEARCH_PATH megafunctions/addone/
+set_global_assignment -name SEARCH_PATH megafunctions/add/
+set_global_assignment -name SEARCH_PATH megafunctions/a/
+set_global_assignment -name SEARCH_PATH megafunctions/b/
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

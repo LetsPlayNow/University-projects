@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Diary</class>
+ <widget class="QMainWindow" name="Diary">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>616</width>
+    <height>377</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>510</width>
+    <height>377</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Ежедневник</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="4" column="0">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="3" column="0">
+       <widget class="QListWidget" name="lstList"/>
+      </item>
+      <item row="1" column="0" rowspan="2">
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="1" column="0">
+         <widget class="QPushButton" name="btnCreate">
+          <property name="text">
+           <string>Создать</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QPushButton" name="btnDelete">
+          <property name="text">
+           <string>Удалить</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="btnSave">
+          <property name="text">
+           <string>Сохранить</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0" colspan="3">
+         <widget class="QPushButton" name="btnFillList">
+          <property name="text">
+           <string>Заполнить список</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="5" column="0" rowspan="2">
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="0" column="1">
+         <widget class="QLCDNumber" name="lcdNoteId">
+          <property name="minimumSize">
+           <size>
+            <width>50</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>30</width>
+            <height>60</height>
+           </size>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <property name="segmentStyle">
+           <enum>QLCDNumber::Flat</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="lblNumberOfNote">
+          <property name="text">
+           <string>Номер текущей записи</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="5" rowspan="6">
+       <layout class="QGridLayout" name="grdEditFields">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetMinimumSize</enum>
+        </property>
+        <item row="10" column="2">
+         <widget class="QListWidget" name="lstImportant">
+          <property name="maximumSize">
+           <size>
+            <width>388</width>
+            <height>56</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="2">
+         <widget class="QListWidget" name="lstPeriodicity">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="2">
+         <widget class="QLineEdit" name="txtPlace">
+          <property name="maxLength">
+           <number>100</number>
+          </property>
+          <property name="dragEnabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="1">
+         <widget class="QLabel" name="lblPlace">
+          <property name="text">
+           <string>Место проведения</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QLabel" name="lblTimeLength">
+          <property name="text">
+           <string>Протяженность</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="1">
+         <widget class="QLabel" name="lblHasPeriodicity">
+          <property name="text">
+           <string>Имеется периодичность</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="1">
+         <widget class="QLabel" name="lblImportant">
+          <property name="text">
+           <string>Важность</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="2">
+         <widget class="QCheckBox" name="cbHasPeriodicity">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLabel" name="lblDateAndTime">
+          <property name="text">
+           <string>Дата и время
+ проведения</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLineEdit" name="txtName">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="maxLength">
+           <number>100</number>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="2">
+         <widget class="QTimeEdit" name="teTimeLength"/>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="lblName">
+          <property name="text">
+           <string>Наименование
+ мероприятия</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QDateTimeEdit" name="dteDateAndTime">
+          <property name="minimumDate">
+           <date>
+            <year>1752</year>
+            <month>9</month>
+            <day>14</day>
+           </date>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="1">
+         <widget class="QLabel" name="lblPeriodicity">
+          <property name="text">
+           <string>Период повторения</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="1">
+         <widget class="QLabel" name="lblNumberOfRepeat">
+          <property name="text">
+           <string>Количество
+повторений</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="2">
+         <widget class="QSpinBox" name="spbNumberOfRepeat">
+          <property name="minimum">
+           <number>2</number>
+          </property>
+          <property name="maximum">
+           <number>366</number>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="1" colspan="2">
+         <widget class="Line" name="line_12">
+          <property name="lineWidth">
+           <number>12</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="1" colspan="2">
+         <widget class="Line" name="line_13">
+          <property name="lineWidth">
+           <number>12</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" colspan="2">
+         <widget class="Line" name="line_2">
+          <property name="lineWidth">
+           <number>12</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="1" colspan="2">
+         <widget class="Line" name="line_7">
+          <property name="lineWidth">
+           <number>12</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="1" colspan="2">
+         <widget class="Line" name="line_6">
+          <property name="lineWidth">
+           <number>12</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1" colspan="2">
+         <widget class="Line" name="line_3">
+          <property name="lineWidth">
+           <number>12</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="1" colspan="2">
+         <widget class="Line" name="line_14">
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <property name="lineWidth">
+           <number>12</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="2" rowspan="6">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Expanding</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="1" rowspan="7">
+       <widget class="Line" name="line">
+        <property name="frameShadow">
+         <enum>QFrame::Sunken</enum>
+        </property>
+        <property name="lineWidth">
+         <number>20</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="Line" name="line_16">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="QGL_IP">
+      <item row="5" column="0" colspan="3">
+       <widget class="Line" name="line_15">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2" rowspan="3">
+       <widget class="QLineEdit" name="leIP">
+        <property name="maximumSize">
+         <size>
+          <width>340</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" rowspan="3">
+       <widget class="Line" name="line_4">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" rowspan="3">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>IP</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" colspan="3">
+       <widget class="QPushButton" name="btn_connect">
+        <property name="text">
+         <string>Подключиться</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>btnCreate</tabstop>
+  <tabstop>btnSave</tabstop>
+  <tabstop>btnDelete</tabstop>
+  <tabstop>btnFillList</tabstop>
+  <tabstop>lstList</tabstop>
+  <tabstop>txtName</tabstop>
+  <tabstop>dteDateAndTime</tabstop>
+  <tabstop>teTimeLength</tabstop>
+  <tabstop>txtPlace</tabstop>
+  <tabstop>lstImportant</tabstop>
+  <tabstop>cbHasPeriodicity</tabstop>
+  <tabstop>lstPeriodicity</tabstop>
+  <tabstop>spbNumberOfRepeat</tabstop>
+ </tabstops>
+ <resources>
+  <include location="client.qrc"/>
+ </resources>
+ <connections/>
+</ui>

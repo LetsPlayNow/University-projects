@@ -1,0 +1,1 @@
+EXEC GetPurchasesByDateRange '01.01.2003', '01.02.2016'

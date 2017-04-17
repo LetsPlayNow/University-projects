@@ -1,0 +1,2 @@
+Gauss.exe serial
+pause

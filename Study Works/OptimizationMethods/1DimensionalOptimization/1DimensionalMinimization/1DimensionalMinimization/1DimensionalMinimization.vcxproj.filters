@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="min_interval">
+      <UniqueIdentifier>{27574d42-5355-4843-902f-36545f833528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function">
+      <UniqueIdentifier>{06e4fd8c-d869-40ee-b4e1-d8d4f6d49231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PaulMethod">
+      <UniqueIdentifier>{558820cc-2a30-4f08-994a-0a043f5c8b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoldProportionMethod">
+      <UniqueIdentifier>{f24fb5ac-3cb8-4bb7-9fa0-7635531662a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\find_min_interval.cpp">
+      <Filter>min_interval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\f_x.cpp">
+      <Filter>Function</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\gold_proportion.cpp">
+      <Filter>GoldProportionMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\paul.cpp">
+      <Filter>PaulMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Pauel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\find_min_interval.h">
+      <Filter>min_interval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\f_x.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\gold_proportion.h">
+      <Filter>GoldProportionMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\paul.h">
+      <Filter>PaulMethod</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

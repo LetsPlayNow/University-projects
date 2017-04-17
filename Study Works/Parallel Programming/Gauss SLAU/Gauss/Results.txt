@@ -1,0 +1,6 @@
+N = 100
+[Serial] CORRECT Time: 0.00300242
+[OpenMP] CORRECT Time: 0.00593641
+N = 1000
+[Serial] CORRECT Time: 2.18634
+[OpenMP] CORRECT Time: 1.61139

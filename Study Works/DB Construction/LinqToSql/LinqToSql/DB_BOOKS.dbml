@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DB_BOOKS" Class="DB_BOOKSDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-KRUN6KM\SQLEXPRESS;Initial Catalog=DB_BOOKS;Integrated Security=True" SettingsObjectName="LinqToSql.Properties.Settings" SettingsPropertyName="DB_BOOKSConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Authors" Member="Authors">
+    <Type Name="Author">
+      <Column Name="Code_author" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name_author" Type="System.String" DbType="Char(30)" CanBeNull="true" />
+      <Column Name="Birthday" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Author_Book" Member="Books" ThisKey="Code_author" OtherKey="Code_author" Type="Book" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Books" Member="Books">
+    <Type Name="Book">
+      <Column Name="Code_book" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Title_book" Type="System.String" DbType="Char(40)" CanBeNull="true" />
+      <Column Name="Code_author" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Pages" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Code_publish" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Book_Purchase" Member="Purchases" ThisKey="Code_book" OtherKey="Code_book" Type="Purchase" />
+      <Association Name="Author_Book" Member="Author" ThisKey="Code_author" OtherKey="Code_author" Type="Author" IsForeignKey="true" />
+      <Association Name="Publishing_house_Book" Member="Publishing_house" ThisKey="Code_publish" OtherKey="Code_publish" Type="Publishing_house" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Purchases" Member="Purchases">
+    <Type Name="Purchase">
+      <Column Name="Code_purchase" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Code_book" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date_order" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="Code_delivery" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Type_purchase" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Cost" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Book_Purchase" Member="Book" ThisKey="Code_book" OtherKey="Code_book" Type="Book" IsForeignKey="true" />
+      <Association Name="Delivery_Purchase" Member="Delivery" ThisKey="Code_delivery" OtherKey="Code_delivery" Type="Delivery" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Deliveries" Member="Deliveries">
+    <Type Name="Delivery">
+      <Column Name="Code_delivery" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name_delivery" Type="System.String" DbType="Char(30)" CanBeNull="true" />
+      <Column Name="Name_company" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="Address1" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="INN" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+      <Association Name="Delivery_Purchase" Member="Purchases" ThisKey="Code_delivery" OtherKey="Code_delivery" Type="Purchase" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Publishing_house" Member="Publishing_houses">
+    <Type Name="Publishing_house">
+      <Column Name="Code_publish" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Publish" Type="System.String" DbType="Char(30)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Association Name="Publishing_house_Book" Member="Books" ThisKey="Code_publish" OtherKey="Code_publish" Type="Book" />
+    </Type>
+  </Table>
+</Database>

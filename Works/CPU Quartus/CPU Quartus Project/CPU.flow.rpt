@@ -1,0 +1,210 @@
+Flow report for CPU
+Mon Jun 22 11:25:23 2015
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------+
+; Flow Summary                                                      ;
++-------------------------+-----------------------------------------+
+; Flow Status             ; Successful - Mon Jun 22 11:25:22 2015   ;
+; Quartus II Version      ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
+; Revision Name           ; CPU                                     ;
+; Top-level Entity Name   ; CPU                                     ;
+; Family                  ; Cyclone                                 ;
+; Met timing requirements ; Yes                                     ;
+; Total logic elements    ; 220 / 4,000 ( 6 % )                     ;
+; Total pins              ; 121 / 249 ( 49 % )                      ;
+; Total virtual pins      ; 0                                       ;
+; Total memory bits       ; 3,952 / 78,336 ( 5 % )                  ;
+; Total PLLs              ; 0 / 2 ( 0 % )                           ;
+; Device                  ; EP1C4F324C6                             ;
+; Timing Models           ; Final                                   ;
++-------------------------+-----------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 06/22/2015 11:25:11 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; CPU                 ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                             ;
++------------------------------------+------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                                    ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 141110930166789.143495791103180          ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_DECODE                               ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                              ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                                  ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_ROM                                  ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                                  ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                                   ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_DECODE                               ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                             ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                             ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                                  ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_ROM                                  ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                              ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                              ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                                  ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                                  ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_ROM                                  ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; PARALLEL_ADD                             ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_RAM_DQ                               ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_RAM_DQ                               ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                                  ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                                  ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                              ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                              ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                      ; --            ; --          ; --             ;
+; MISC_FILE                          ; MCDECODE.bsf                             ; --            ; --          ; --             ;
+; MISC_FILE                          ; MCDECODE.cmp                             ; --            ; --          ; --             ;
+; MISC_FILE                          ; MCCNTER.bsf                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; MCCNTER.cmp                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; Schemes/MEM_OR_REG.bsf                   ; --            ; --          ; --             ;
+; MISC_FILE                          ; Schemes/MEM_OR_REG.cmp                   ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/lpm_rom0.bsf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/lpm_rom0.cmp               ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/lpm_mux0.bsf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/lpm_mux0.cmp               ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/lpm_ff0.bsf                ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/lpm_ff0.cmp                ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/lpm_decode0.bsf            ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/lpm_decode0.cmp            ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/lpm_constant0.bsf          ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/lpm_constant0.cmp          ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/lpm_constant1.bsf          ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/lpm_constant1.cmp          ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/ADDR_MUX.bsf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/ADDR_MUX.cmp               ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/DECODE_ADDR.bsf            ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/DECODE_ADDR.cmp            ; --            ; --          ; --             ;
+; MISC_FILE                          ; ../Projects/Quartus/CPU/lpm_counter0.bsf ; --            ; --          ; --             ;
+; MISC_FILE                          ; ../Projects/Quartus/CPU/lpm_counter0.cmp ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/MICRO_COUNTER.bsf          ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/MICRO_COUNTER.cmp          ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/REG_SWITCH_MUX.bsf         ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/REG_SWITCH_MUX.cmp         ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/REG_SW.bsf                 ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/REG_SW.cmp                 ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/MICROCODE.bsf              ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/MICROCODE.cmp              ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/ADDRESS_SUMMATOR.bsf       ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/ADDRESS_SUMMATOR.cmp       ; --            ; --          ; --             ;
+; MISC_FILE                          ; ../Projects/Quartus/CPU/RAM.bsf          ; --            ; --          ; --             ;
+; MISC_FILE                          ; ../Projects/Quartus/CPU/RAM.cmp          ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/RAM_256.bsf                ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/RAM_256.cmp                ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/ADDRESATION_MUX.bsf        ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/ADDRESATION_MUX.cmp        ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/ATS.bsf                    ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/ATS.cmp                    ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/MCPROG_COUNTER.bsf         ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/MCPROG_COUNTER.cmp         ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/CNTERR.bsf                 ; --            ; --          ; --             ;
+; MISC_FILE                          ; Megafunctions/CNTERR.cmp                 ; --            ; --          ; --             ;
+; MISC_FILE                          ; ADDR_GEN_MX.bsf                          ; --            ; --          ; --             ;
+; MISC_FILE                          ; ADDR_GEN_MX.cmp                          ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                                 ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                   ; --            ; --          ; Top            ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                      ; --            ; --          ; eda_blast_fpga ;
++------------------------------------+------------------------------------------+---------------+-------------+----------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis    ; 00:00:06     ; 1.0                     ; 247 MB              ; 00:00:06                           ;
+; Fitter                  ; 00:00:03     ; 1.0                     ; 204 MB              ; 00:00:03                           ;
+; Assembler               ; 00:00:00     ; 1.0                     ; 188 MB              ; 00:00:00                           ;
+; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 152 MB              ; 00:00:00                           ;
+; Total                   ; 00:00:09     ; --                      ; --                  ; 00:00:09                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                          ;
++-------------------------+------------------+---------------+------------+----------------+
+; Module Name             ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
++-------------------------+------------------+---------------+------------+----------------+
+; Analysis & Synthesis    ; Дом              ; Windows Vista ; 6.1        ; x86_64         ;
+; Fitter                  ; Дом              ; Windows Vista ; 6.1        ; x86_64         ;
+; Assembler               ; Дом              ; Windows Vista ; 6.1        ; x86_64         ;
+; Classic Timing Analyzer ; Дом              ; Windows Vista ; 6.1        ; x86_64         ;
++-------------------------+------------------+---------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off CPU -c CPU
+quartus_fit --read_settings_files=off --write_settings_files=off CPU -c CPU
+quartus_asm --read_settings_files=off --write_settings_files=off CPU -c CPU
+quartus_tan --read_settings_files=off --write_settings_files=off CPU -c CPU --timing_analysis_only
+
+
+

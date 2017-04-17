@@ -1,0 +1,21 @@
+[RESOURCES]
+BabaValya
+Kassir
+[VARIABLES]
+Shopping.NumberIn
+Kassa1.NumberIn
+Is_break?.NumberOut True
+Broker.NumberOut True
+Kassa2.NumberOut
+br_start.NumberOut
+br_end.NumberOut
+Kassa2.NumberIn
+Shopping.NumberOut
+Kassa1.NumberOut
+Broker.NumberOut False
+fl
+br_count.NumberIn
+br_count.NumberOut
+Entry.NumberOut
+Is_break?.NumberOut False
+Exit.NumberOut

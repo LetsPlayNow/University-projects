@@ -1,0 +1,68 @@
+SIMAN Run Controller.
+
+8.899374 Hours>
+                                      ARENA Simulation Results
+                                       Alex - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :12/12/2015
+Analyst: student                                                     Model revision date:12/12/2015
+
+Replication ended at time      : 8.899374 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Client.VATime                               .13034     (Insuf)    3.6178E-04 .77171        105    
+Client.NVATime                              .17114     (Insuf)    .08357     .24956        105    
+Client.WaitTime                             .21915     (Insuf)    .00000     1.1552        105    
+Client.TranTime                             .00000     (Insuf)    .00000     .00000        105    
+Client.OtherTime                            .00000     (Insuf)    .00000     .00000        105    
+Client.TotalTime                            .52064     (Insuf)    .12997     1.4492        105    
+br.VATime                                       --         --         --         --          0
+br.NVATime                                      --         --         --         --          0
+br.WaitTime                                     --         --         --         --          0
+br.TranTime                                     --         --         --         --          0
+br.OtherTime                                    --         --         --         --          0
+br.TotalTime                                    --         --         --         --          0
+Kassa1.Queue.WaitingTime                    .19238     (Insuf)    .00000     .88028         48    
+Kassa2.Queue.WaitingTime                    .24117     (Insuf)    .00000     1.1552         58    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Client.WIP                                  6.2943     (Insuf)    .00000     13.000     4.0000    
+br.WIP                                      .00000     (Insuf)    .00000     .00000     .00000    
+BabaValya.NumberBusy                        .83539     (Insuf)    .00000     1.0000     .00000    
+BabaValya.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+BabaValya.Utilization                       .83539     (Insuf)    .00000     1.0000     .00000    
+Kassir.NumberBusy                           .71756     (Insuf)    .00000     1.0000     1.0000    
+Kassir.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Kassir.Utilization                          .71756     (Insuf)    .00000     1.0000     1.0000    
+Kassa1.Queue.NumberInQueue                  1.0754     (Insuf)    .00000     4.0000     2.0000    
+Kassa2.Queue.NumberInQueue                  1.5717     (Insuf)    .00000     5.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Client.NumberIn                             109.00    
+Client.NumberOut                            105.00    
+br.NumberIn                                 .00000    
+br.NumberOut                                .00000    
+BabaValya.NumberSeized                      58.000    
+BabaValya.ScheduledUtilization              .83539    
+Kassir.NumberSeized                         48.000    
+Kassir.ScheduledUtilization                 .71756    
+System.NumberOut                            105.00    
+
+
+Simulation run time: 0.23 minutes.
+Simulation run complete.

@@ -1,0 +1,38 @@
+[RESOURCES]
+EVM
+[VARIABLES]
+ProcessString.NumberIn
+IsInputCompleted.NumberOut True
+ProcessTask.VATime
+TypeString.VACost
+TerminalGettingAnswer.NumberOut
+IsNotNull2.NumberOut True
+ProcessString.WaitTime
+IsNotNull.NumberOut True
+AnalysisOfAnswer.VACost
+TypeString.NumberOut
+TerminalShowAnswer.NumberOut
+TerminalShowAnswer.VATime
+ProcessTask.VACost
+TerminalGettingAnswer.VATime
+TerminalCreation.NumberOut
+IsNotNull.NumberOut False
+ProcessString.WaitCost
+TerminalShowAnswer.NumberIn
+ProcessString.VATime
+ProcessTask.NumberIn
+TerminalShowAnswer.VACost
+TerminalGettingAnswer.NumberIn
+TerminalGettingAnswer.VACost
+IsInputCompleted.NumberOut False
+IsNotNull2.NumberOut False
+ProcessString.VACost
+TypeString.NumberIn
+AnalysisOfAnswer.NumberIn
+ProcessTask.WaitTime
+ProcessTask.NumberOut
+ProcessString.NumberOut
+TypeString.VATime
+ProcessTask.WaitCost
+AnalysisOfAnswer.NumberOut
+AnalysisOfAnswer.VATime

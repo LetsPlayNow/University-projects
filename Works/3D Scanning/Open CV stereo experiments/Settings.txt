@@ -1,0 +1,11 @@
+C/C++:	$(OPENCV_DIR)\..\..\include
+Linker: $(OPENCV_DIR)\lib
+
+Input Debug:
+opencv_ts300d.lib
+opencv_world300d.lib
+
+Input Release:
+opencv_ts300.lib
+opencv_world300.lib
+

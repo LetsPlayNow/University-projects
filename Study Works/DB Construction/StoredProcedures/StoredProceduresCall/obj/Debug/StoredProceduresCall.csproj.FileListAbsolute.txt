@@ -1,0 +1,6 @@
+D:\My\Study\Current\Построение СУБД\Labs\3\StoredProceduresCall\bin\Debug\StoredProceduresCall.exe.config
+D:\My\Study\Current\Построение СУБД\Labs\3\StoredProceduresCall\bin\Debug\StoredProceduresCall.exe
+D:\My\Study\Current\Построение СУБД\Labs\3\StoredProceduresCall\bin\Debug\StoredProceduresCall.pdb
+D:\My\Study\Current\Построение СУБД\Labs\3\StoredProceduresCall\obj\Debug\StoredProceduresCall.csprojResolveAssemblyReference.cache
+D:\My\Study\Current\Построение СУБД\Labs\3\StoredProceduresCall\obj\Debug\StoredProceduresCall.exe
+D:\My\Study\Current\Построение СУБД\Labs\3\StoredProceduresCall\obj\Debug\StoredProceduresCall.pdb
